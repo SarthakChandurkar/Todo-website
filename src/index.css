@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Header */
+.Header{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    background-color: aquamarine;
+    height: 40px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Outlet */
+
+.showTodo{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.todo-container{
+    width: 450px;
+    height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px;
+    padding-left: 30px;
+    gap: 8px;
+    font-size: 18px;
+    overflow-y: scroll;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.todo-container h3{
+    text-align: center;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px groove #686868;
+}
+.addTodo{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 30px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+.headingTodo{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 30px;
+    background-color: aliceblue;
+    border-top-left-radius: 1.5%;
+    border-top-right-radius: 1.5%;
+    padding: 15px 23px;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+.Footer{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
 }
