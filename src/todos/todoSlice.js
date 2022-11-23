@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios"
-const base_url = "http://localhost:5000/todos"
+const base_url = "https://todo-api.onrender.com/todos"
 const initialState = {
     todos: [],
     status:'idle',
